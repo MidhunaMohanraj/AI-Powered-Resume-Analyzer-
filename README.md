@@ -18,7 +18,7 @@ An AI-powered resume analyzer built with **Node.js**, **Express**, and the **Cla
 - **Clean Dark UI** — Minimal, responsive, and fast
 
 ---
-
+   
 ## 🚀 Getting Started
 
 ### Prerequisites
