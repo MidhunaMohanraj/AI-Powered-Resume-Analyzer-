@@ -20,7 +20,6 @@ app.post("/api/analyze", async (req, res) => {
   if (!apiKey) {
     return res.status(500).json({ error: "ANTHROPIC_API_KEY is not set in environment." });
   }
-
   const prompt = `You are an expert ATS (Applicant Tracking System) and career coach. Analyze the resume against the job description and respond ONLY with a valid JSON object — no markdown, no explanation outside the JSON.
 
 JOB DESCRIPTION:
